@@ -2,8 +2,8 @@
 
 //Question answered in this file: How do i create an assert test in P5 library and portray how i envision the process of developing a simple testcase. 
 
-// This document shows the development of my concept of testing from versions. I will start with the most complex and latest version and down to the first version for the convenience of the viewer who is preferably
-//the possible employer. This build up also needs to show my understanding of version control and iterations ofa developing an answer to a problem or question.
+// This document shows the development of my concept of testing from versions. 
+//This build up also needs to show my understanding of version control and iterations ofa developing an answer to a problem or question.
 
 
 
