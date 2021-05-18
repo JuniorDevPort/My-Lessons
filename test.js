@@ -1,6 +1,6 @@
 // This is done in javascript/P5.
 
-//Question answered in this file: How do i create an assert test in P5 library and portray how i envision the process of developing a simple testcase. 
+//Question answered in this file: How do i create and assert a test in P5 library and portray how i envision the process of developing a simple testcase. 
 
 // This document shows the development of my concept of testing from versions. 
 //This build up also needs to show my understanding of version control and iterations ofa developing an answer to a problem or question.
