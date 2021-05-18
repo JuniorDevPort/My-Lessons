@@ -1,6 +1,7 @@
 // This is done in javascript/P5.
 
-//Question answered in this file: How do i create and assert a test in P5 library and portray how i envision the process of developing a simple testcase. 
+//Question answered in this file: How do i create and assert a test in P5 library, portray how i envision the process of developing a simple testcase and code asimple example of
+//TDD(Test Driven Development). 
 
 // This document shows the development of my concept of testing from versions. 
 //Here i start to think in versions and iterations of developing an answer to a problem or question.
