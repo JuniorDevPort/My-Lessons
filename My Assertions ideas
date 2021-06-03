@@ -7,23 +7,34 @@ Is this okay or not?
 x = 75;
 
 console.log((100 > x && x > 10) == true) => This came out : true
-
 console.log((100 > x && x > 10) === true) => This came out : true
 
 console.log((100 > x > 10) == true) => This came out : false
-
 console.log((100 > x > 10) === true) => This came out : false
 
 Interistingly:
 
 console.log(((100 > x && x > 10) == (100 > x && x > 10)) == true) => true
+console.log(((100 > x && x > 10) === (100 > x && x > 10)) == true) => true
+console.log(((100 > x && x > 10) === (100 > x && x > 10)) === true) => true
 
+console.log(100 > x,  x > 10 == true) => true, true
+console.log(100 > x,  x > 10 === true)
 and
 
 console.log(((100 > x && x > 10) == (100 > x && x > 10)) === true) => true
 
+----------------
 From this point on forward Testing should be an easy endevour.
 
 TDD - would mean i write the assertion, get a console log of false. and can then test output.
 
 Ofc. i could try to run a group of these assertions and then log directrlyninto a bug tracker/logger?
+
+And i just realised i can create the assert functionality in javascript by writing: true ===(x1, x2)
+x1 = 100; x2 = 10;
+console.log(true ===(x1, x2)) => evaluates to false
+console.log(true === (x1 > x2)) => true
+
+
+
