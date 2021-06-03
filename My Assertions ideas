@@ -22,3 +22,8 @@ and
 
 console.log(((100 > x && x > 10) == (100 > x && x > 10)) === true) => true
 
+From this point on forward Testing should be an easy endevour.
+
+TDD - would mean i write the assertion, get a console log of false. and can then test output.
+
+Ofc. i could try to run a group of these assertions and then log directrlyninto a bug tracker/logger?
