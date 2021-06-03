@@ -1,0 +1,43 @@
+
+<!--       
+
+Here we see an example of a test case where we test for undefined, if we get an undefined result, then this is an error.
+
+-->
+function myFunction() {
+  var x;
+
+  if (typeof x === "undefined") {
+    txt = "x is undefined";
+  } else {
+    txt = "x is defined";
+  }
+  
+  function myFunction() {
+  var x;
+
+  if  true ===(typeof x,"undefined") {
+    txt = "x is undefined";
+  } else {
+    txt = "x is defined";
+  }
+  
+  <!--       
+
+I want to do another one assertion, its about Stack tracing.
+
+Debugger functionality: 
+
+- find ananymous functions;
+- find the line an error code was given
+- run through each step and log th number of steps and the lines it is happening in the code,
+
+
+Use this to create error dictionary
+-->
+
+var dict = {
+  FirstName: "Chris",
+  "one": 1,
+  1: "some value"
+};
