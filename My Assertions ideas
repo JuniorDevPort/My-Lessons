@@ -1,0 +1,24 @@
+So i'm pondering how to write some TDD.
+Tdd might mean console.log(1 === 1) or console.log(value range == value range)
+
+I am trying to think of working principles of values and coercive(abstractions) assertion and strict assertion(type and value).
+
+Is this okay or not?
+x = 75;
+
+console.log((100 > x && x > 10) == true) => This came out : true
+
+console.log((100 > x && x > 10) === true) => This came out : true
+
+console.log((100 > x > 10) == true) => This came out : false
+
+console.log((100 > x > 10) === true) => This came out : false
+
+Interistingly:
+
+console.log(((100 > x && x > 10) == (100 > x && x > 10)) == true) => true
+
+and
+
+console.log(((100 > x && x > 10) == (100 > x && x > 10)) === true) => true
+
