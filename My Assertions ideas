@@ -33,6 +33,7 @@ Ofc. i could try to run a group of these assertions and then log directrlyninto 
 
 And i just realised i can create the assert functionality in javascript by writing: true ===(x1, x2)
 x1 = 100; x2 = 10;
+
 console.log(true ===(x1, x2)) => evaluates to false
 console.log(true === (x1 > x2)) => true
 
