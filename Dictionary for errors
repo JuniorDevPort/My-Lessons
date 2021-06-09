@@ -63,3 +63,8 @@ Type: X_is_not_defined
 Uncaught ReferenceError: newAttribute is not defined
     at myFunctionAdd (testing.html:34)
     at HTMLButtonElement.onclick (testing.html:20)
+Type: legacy_code_left_after_deletion_or_change    
+NoteTaker.html:43 Uncaught ReferenceError: textnode is not defined
+    at myFunctionAdd (NoteTaker.html:43)
+    at HTMLButtonElement.onclick (NoteTaker.html:21)
+
