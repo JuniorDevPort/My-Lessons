@@ -50,3 +50,8 @@ Type: Form_action__attribute_fault
 Navigated to chrome-error://chromewebdata/
 VM9:7146 crbug/1173575, non-JS module files deprecated.
 (anonymous) @ VM9:7146
+
+Type: div_style_incomplete_syntax
+testing.html:20 Uncaught TypeError: Cannot read property 'style' of null
+    at myFunction (testing.html:20)
+    at HTMLButtonElement.onclick (testing.html:15)
