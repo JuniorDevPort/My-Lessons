@@ -41,6 +41,9 @@ var dict = {
   "one": 1,
   1: "some value"
 };
+----------------
+
+If the id type is not a number
 
 ----------------
 
@@ -55,3 +58,8 @@ Type: div_style_incomplete_syntax
 testing.html:20 Uncaught TypeError: Cannot read property 'style' of null
     at myFunction (testing.html:20)
     at HTMLButtonElement.onclick (testing.html:15)
+    
+Type: X_is_not_defined
+Uncaught ReferenceError: newAttribute is not defined
+    at myFunctionAdd (testing.html:34)
+    at HTMLButtonElement.onclick (testing.html:20)
