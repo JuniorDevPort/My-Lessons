@@ -41,3 +41,12 @@ var dict = {
   "one": 1,
   1: "some value"
 };
+
+----------------
+
+Types of errors
+
+Type: Form_action__attribute_fault
+Navigated to chrome-error://chromewebdata/
+VM9:7146 crbug/1173575, non-JS module files deprecated.
+(anonymous) @ VM9:7146
